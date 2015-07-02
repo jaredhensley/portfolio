@@ -1,0 +1,73 @@
+# {
+  /*global styles*/
+  
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div {
+  border: 1px solid black;
+}
+
+section {
+  border: 1px solid black;
+}
+
+body {
+  font-family: color: black;
+  font-size: 1em;
+  background-color: white;
+}
+
+.topheader {
+  width: 100%;
+  border: 1px solid black;
+  height: 4em;
+}
+
+.container {
+  width: 60.444em;
+  margin: 0 auto;
+}
+
+.jaredhensley {
+  margin-top: 1em;
+  float: left;
+}
+
+.menubar {
+  float: right;
+  display: inline-block;
+}
+
+.menubar ul {
+  list-style: none;
+}
+
+.menubar ul li {
+  display: inline-block;
+}
+
+.mastheader {
+  height: 20em;
+  background-color: #151515;
+}
+
+.mast-background {
+  background-color: blue;
+}
+
+.project-section {
+  height: 60em;
+  margin: 0 auto;
+  background-color: tomato;
+}
+
+footer {
+  height: 15em;
+  background-color: #7F524A;
+}
+/*parent background for container subsection*/
