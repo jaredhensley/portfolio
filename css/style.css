@@ -8,13 +8,12 @@
   box-sizing: border-box;
 }
 
-div {
+/*div {
   border: 1px solid black;
-}
+}*/
 
-section {
-  border: 1px solid black;
-}
+/*  border: 1px solid black;
+}*/
 
 body {
   font-family: color: black;
@@ -56,10 +55,6 @@ body {
   background-color: #151515;
 }
 
-.mast-background {
-  background-color: blue;
-}
-
 .project-section {
   height: 60em;
   margin: 0 auto;
@@ -67,7 +62,27 @@ body {
 }
 
 footer {
-  height: 15em;
-  background-color: #7F524A;
+  
+  background-color: blue;
 }
 /*parent background for container subsection*/
+
+footer p {
+	margin:0;
+}
+.masthead-parent {
+	background-color: #151515;
+
+}
+
+.project-parent {
+	background:white;
+
+}
+
+.social {
+	background-color: #7F524A;
+	height: 15em;
+
+}
+
