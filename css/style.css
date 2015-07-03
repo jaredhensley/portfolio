@@ -117,13 +117,24 @@ h2 {
   margin-bottom:1em;
 }
 
-.project-one img {
-  margin-top:2em;
-  margin-left:2em;
-  border: 1px solid black;
-  border-radius:10px;
-  height: 200px;
+.project-one {
+  margin-top:5em;
 
 }
+.project-one img {
+  
+  margin-left: 2em;
+  border: 3px solid black;
 
+  border-radius: 10px;
+  height: 275px;
+  float: left;
+  opacity: .9;
+}
+
+.project-one-text {
+  float: right;
+  width:450px;
+
+}
 
