@@ -16,7 +16,7 @@
 }*/
 
 body {
-  font-family: color: black;
+  color: black;
   font-size: 1em;
   background-color: white;
 }
@@ -72,7 +72,7 @@ footer p {
 }
 .masthead-parent {
 	background-color: #151515;
-
+	color: white;
 }
 
 .project-parent {
@@ -84,5 +84,12 @@ footer p {
 	background-color: #7F524A;
 	height: 15em;
 
+}
+
+ .mast-text {
+ 	margin: 0 auto;
+	padding-top:3em;
+	margin-top:0em;
+	text-align:center;
 }
 
