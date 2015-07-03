@@ -12,32 +12,32 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
-
 /*div {
   border: 1px solid black;
 }*/
-
 /*  border: 1px solid black;
 }*/
-header {
 
-	border: 5px solid purple;
-}
 body {
   color: black;
   font-size: 1em;
   background-color: white;
-  font-family: 'Roboto', 'Proxima Nova ThinT',Arial,sans-serif;
-  
+  font-family: 'Roboto', 'Proxima Nova ThinT', Arial, sans-serif;
+}
+
+.topheader-parent {
+  background-color: white;
 }
 
 .topheader {
   width: 100%;
-  height:4em;
-  background-color: blue;
+  height: 4em;
+  background-color: purple;
   color: white;
   font-weight: 100;
 }
@@ -45,18 +45,12 @@ body {
 .container {
   width: 60.444em;
   margin: 0 auto;
-  border: 1px solid green;
-}
-
-.topheader > .container {
-	background-color: purple;
-
+  /*border: 1px solid green;*/
 }
 
 .home {
   margin-top: 1em;
   float: left;
-  border: 2px solid orange;
 }
 
 .menubar {
@@ -65,7 +59,7 @@ body {
 }
 
 .menubar ul {
-	padding-top:1em;
+  padding-top: 1em;
   list-style: none;
 }
 
@@ -85,41 +79,39 @@ body {
 }
 
 footer {
-  
-  background-color: blue;
+  background-color: #white;
 }
 /*parent background for container subsection*/
 
 footer p {
-	margin:0;
+  margin: 0;
 }
+
 .masthead-parent {
-	background-color: white;
-	color: white;
+  background-color: #white;
+  color: white;
 }
 
 .project-parent {
-	background:white;
-
+  background: white;
 }
 
 .social {
-	background-color: #7F524A;
-	height: 15em;
-
+  background-color: #7F524A;
+  height: 15em;
 }
 
- .mast-text {
- 	margin: 0 auto;
-	padding-top:3em;
-	margin-top:0em;
-	text-align:center;
-	font-size:1.5em;
+.mast-text {
+  margin: 0 auto;
+  padding-top: 3em;
+  margin-top: 0em;
+  text-align: center;
+  font-size: 1.5em;
 }
 
-.mast-text h1, h2 {
-	font-weight:100;
-
+.mast-text h1,
+h2 {
+  font-weight: 100;
 }
 
 
