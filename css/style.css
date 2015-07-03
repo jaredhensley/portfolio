@@ -50,6 +50,7 @@ body {
 
 .home {
   margin-top: 1em;
+  margin-left:1em;
   float: left;
 }
 
@@ -65,6 +66,7 @@ body {
 
 .menubar ul li {
   display: inline-block;
+  margin-right:1em;
 }
 
 .mastheader {
@@ -112,6 +114,7 @@ footer p {
 .mast-text h1,
 h2 {
   font-weight: 100;
+  margin-bottom:1em;
 }
 
 .project-one img {
