@@ -19,12 +19,16 @@ body {
   color: black;
   font-size: 1em;
   background-color: white;
+  font-family: 'Roboto', 'Proxima Nova ThinT',Arial,sans-serif;
+  
 }
 
 .topheader {
   width: 100%;
-  border: 1px solid black;
+  
   height: 4em;
+  background-color: #151515;
+  color: white;
 }
 
 .container {
@@ -32,7 +36,7 @@ body {
   margin: 0 auto;
 }
 
-.jaredhensley {
+.home {
   margin-top: 1em;
   float: left;
 }
@@ -91,5 +95,9 @@ footer p {
 	padding-top:3em;
 	margin-top:0em;
 	text-align:center;
+	font-size:1.5em;
+	font-weight:100;
 }
+
+
 
