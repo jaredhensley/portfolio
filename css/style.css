@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+div {
+  border: 1px solid red;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -46,7 +50,7 @@ body {
 .container {
   width: 60.444em;
   margin: 0 auto;
-  /*border: 1px solid green;*/
+  border: 1px solid green;
 }
 
 .home {
@@ -75,22 +79,6 @@ body {
   background-color: #151515;
 }
 
-.project-section {
-  height: 60em;
-  margin: 0 auto;
-  background-color: white;
-}
-
-footer {
-  background-color: tomato;
-  margin-top: 10em;
-}
-/*parent background for container subsection*/
-
-footer p {
-  margin: 0;
-}
-
 .masthead-parent {
   background-color: #151515;
   color: white;
@@ -98,11 +86,6 @@ footer p {
 
 .project-parent {
   background: white;
-}
-
-.social {
-  background-color: tomatoe;
-  height: 10em;
 }
 
 .mast-text {
@@ -120,18 +103,16 @@ h2 {
 }
 
 .project-section {
+  background-color: white;
   margin-top: 2em;
-  margin-left: 2em;
 }
 
 .project-section img {
   border-radius: 10px;
-  border: 2px solid #151515;
+  border: 5px solid #151515;
   height: 15.625em;
   opacity: .9
 }
-
-.project-one img {}
 
 .image-wrapper {
   width: 50%;
@@ -141,8 +122,9 @@ h2 {
 .project h2 {
   text-align: center;
   clear: both;
-  padding: 2em 0;
-  font-weight: 400;
+  padding-top: 4em;
+  padding-bottom: 1em;
+  border-top: 1px so font-weight: 400;
   font-size: 2rem;
 }
 
@@ -152,4 +134,33 @@ h2 {
   width: 50%;
   float: right;
   line-height: 2em;
+}
+
+footer {
+  clear: both;
+  background-color: tomato;
+  height: 10em;
+}
+/*parent background for container subsection*/
+
+footer p {
+  margin: 0;
+}
+
+.social {
+  background-color: ;
+}
+
+.spacer {
+  height: 10em;
+}
+
+.clearfix:after {
+  content: " ";
+  /* Older browser do not support empty content */
+  
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
