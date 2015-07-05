@@ -86,7 +86,7 @@ body {
 
 .project-parent {
   background: white;
-  margin:0;
+  margin: 0;
 }
 
 .mast-text {
@@ -140,7 +140,6 @@ h2 {
 footer {
   clear: both;
   background-color: tomato;
-  height: 5em;
 }
 /*parent background for container subsection*/
 
@@ -150,6 +149,8 @@ footer p {
 
 .social {
   background-color: ;
+  text-align: center;
+  padding-bottom: 1em;
 }
 
 .spacer {
@@ -168,11 +169,21 @@ footer p {
 
 footer ul {
   text-align: center;
-
 }
+
 footer ul li {
   display: inline-block;
-  list-style:none;
-  padding:1em;
-  margin-top:1em;
+  list-style: none;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.left {
+  float:left;
+
+}
+
+.right {
+  float:right;
+
 }
